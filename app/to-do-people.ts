@@ -1,4 +1,5 @@
 /// <reference path="to-do-classes-interfaces.ts" />
+
 module ToDoList {
   var diane: ToDoList.IPerson = {
     name: "Diane D",
@@ -12,8 +13,7 @@ module ToDoList {
 
   var loki: ToDoList.IPerson = {
     name: "God of mischief",
-    email: "loki@geocities.com"
-    phone: "555-666-7777"
+    email: "loki@geocities.com",
   }
 
   export var people = {
